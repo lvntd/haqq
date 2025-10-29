@@ -24,13 +24,6 @@ const submitButton = document.getElementById('submit-btn')
 const urlInput = document.getElementById('url_input')
 const quantityInput = document.getElementById('quantity_input')
 
-// quantityInput.onblur = (e) => {
-//   console.log(e.target.value)
-//   if (Number(e.target.value) > 10) {
-//     e.target.value = 10
-//   }
-// }
-
 if (submitButton !== null) {
   submitButton.onclick = (e) => {
     e.preventDefault()
