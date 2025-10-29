@@ -5,8 +5,8 @@ module.exports = {
   packagerConfig: {
     asar: true,
     // Add app metadata
-    name: 'Node TKT',
-    executableName: 'node-tkt',
+    name: 'Haqq',
+    executableName: 'haqq',
     // icon: './assets/icon.ico', // Uncomment when you have an icon
     // App version and details
     appVersion: '1.0.0',
@@ -14,10 +14,10 @@ module.exports = {
     // Windows-specific metadata
     win32metadata: {
       CompanyName: 'Your Company Name',
-      FileDescription: 'Node TKT Application',
-      OriginalFilename: 'node-tkt.exe',
-      ProductName: 'Node TKT',
-      InternalName: 'node-tkt',
+      FileDescription: 'Haqq Application',
+      OriginalFilename: 'haqq.exe',
+      ProductName: 'Haqq',
+      InternalName: 'haqq',
     },
   },
   rebuildConfig: {},
@@ -26,13 +26,13 @@ module.exports = {
       name: '@electron-forge/maker-squirrel',
       config: {
         // Windows installer configuration
-        name: 'node-tkt',
+        name: 'haqq',
         authors: 'levan.tediashvili@outlook.com',
-        description: 'Node TKT Application',
+        description: 'Haqq Application',
         // setupIcon: './assets/icon.ico', // Uncomment when you have an icon
         // loadingGif: './assets/loading.gif', // Optional loading animation
-        setupExe: 'NodeTKT-Setup.exe',
-        setupMsi: 'NodeTKT-Setup.msi',
+        setupExe: 'Haqq-Setup.exe',
+        setupMsi: 'Haqq-Setup.msi',
         // Skip delta packages for faster builds (optional)
         noDelta: true,
         // Installer options
