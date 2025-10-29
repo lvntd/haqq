@@ -3,6 +3,9 @@
 A desktop application built with Electron.
 Opens multiple chrome browsers with independent sessions.
 
+<img width="912" height="712" alt="image" src="https://github.com/user-attachments/assets/97aa58fd-2746-4032-8607-d341110b2b88" />
+
+
 ## Prerequisites
 
 - Node.js (v14 or higher recommended)
